@@ -95,6 +95,7 @@ h2{
 .hero-image{
 	object-fit:cover;
 	height:290px;
+	border: 1px solid blue;
 }
 .portfolio{
 	background:#fafafa;
