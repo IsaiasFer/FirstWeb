@@ -1,0 +1,256 @@
+body{
+	background:white;
+	font-family:'Source Sans Pro',sans-serif;
+	margin:0;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family:'Fjalla One',sans-serif;
+	color: black;
+}
+.link{
+	color:#979B9EFF;
+	text-decoration:none;
+}
+footer ,footer div{ 
+	background: #1d252c;
+	color:white;
+	display:flex;
+	align-items:center;
+	justify-content: space-between;
+}
+footer img{
+	vertical-align:middle ;
+}
+.footer a{
+	color:white;
+}
+h1{
+	color:white;
+	font-size: 40px;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	margin:0;
+}
+h1 strong{
+	color:#026fff;
+}
+h2{
+	color:#026fff;
+	text-transform: uppercase;
+	font-family:'Source Sans Pro',sans-serif;
+	font-weight: bold;
+	font-size:24px;
+	margin-bottom:40px;
+}
+.project{
+	/*border-right: 10px solid green;
+	border-top: 10px solid red;
+	border-left: 10px solid blue;
+	border-bottom: 10px solid pink;
+	border-color:red;
+	border-width:15px;
+	border-style:solid;*/
+	border:1px solid gray;
+	border-radius:10px;
+	/*margin:10px;*/
+	margin-bottom: 15px;
+	padding:20px;
+	background: white;
+	display:flex;
+	align-items:center;
+	justify-content: space-between;
+}
+.project_university,.project_date,.project_url{
+	margin:10px 0;
+}
+.project_title{
+	font-size:30px;
+	margin-top:0;
+	margin-bottom:10px;
+}
+.project_details{
+	width: 500px;
+}
+.project_description{
+	font-size:20px;
+}
+.project_imageContainer{
+	width: 500px;
+}
+.project strong{
+	font-family:'Fjalla One'
+}
+.project_image{
+	border-radius: 10px;
+}
+.hero{
+	height: 290px;
+	background-position-x: right;
+	background-color: #1b2127;
+	display:flex;
+	align-items:center;
+	justify-content: space-between;
+}
+.hero-image{
+	object-fit:cover;
+	height:292px;
+}
+.portfolio{
+	background:#fafafa;
+	padding:20px;
+}
+.flexbox{
+	display:flex;
+	flex-wrap: wrap;
+}
+.box{
+	margin:10px;
+	width:50px;
+	height:50px;
+	border: 1px solid red;
+	flex-shrink: 0;
+}
+ol,ul{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+figure{
+	margin:0;
+}
+.header{
+	background:#1b2127;
+	color:white;
+	display:flex;
+	justify-content: space-between;
+	height:70px;
+	align-items:center;
+
+			}
+.header ul{
+	height: inherit;
+	display: flex;
+}
+.menu{
+	height: inherit;
+}
+.header ul{
+	height: inherit;
+}
+header a.link,li{
+	color:white;
+	text-decoration:none;
+	height: inherit;
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	padding:0 10px
+}
+.event{
+	margin:10px;
+	width:480px;	
+	background: #f4fbff;
+}
+.event-list{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap:wrap;
+}
+.event-list article{
+	margin:10px;
+}
+.event img{
+	border-radius: 10px;
+	width:480px;
+	height:200;
+	object-fit:cover;
+}
+.event_detail{
+	margin:20px 40px;
+	margin-top: -50px;
+	background-color:white;
+	position: relative;
+	border-radius:10px;
+	padding: 10px;
+	padding-top: 1px;
+	text-align: center;
+}
+.event_description{
+	text-align: left;
+}
+.event_url{
+	text-decoration: none;
+	font-size :bold;
+	color:#056fff;
+	border:2px solid;
+	padding:5px 20px;
+	border-radius: 10px;
+}
+.event-list-title{
+	margin-left:20px;
+}
+.contact{
+	background-color:#056fff;
+	color:white;
+	height:150px;
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.social{
+}
+.social_link{
+	display:inline-block;
+	width:50px;
+	height:50px;
+	margin:0px 10px;
+	background-size:50px 50px;
+}
+.social_link.twitter{
+	background-image: url('../twitter.svg');
+}
+.social_link.facebook{
+	background-image: url('../facebook.svg');
+}
+.social_link.github{
+	background-image: url('../github.svg');
+}
+.social_link.instagram{
+	background-image: url('../instagram.svg');
+}
+.form_email input{
+	border-color: gray;
+	border-style: solid;
+	border-radius: 5px;
+	background-image: url('../envelope.svg');
+	background-size:15px 15px;
+	padding:10px 20px  10px 25px;
+	background-repeat: no-repeat;
+	background-position-y: center;
+	background-position-x: 5px;
+}
+.form_email button{
+	color:white;
+	display: block;
+	border-style: solid;
+	background:transparent;
+	padding:10px 0px;
+	border-radius:5px;
+	width:100px;
+	margin-top:10px;
+	border-color:white;
+}
+.form_email h3{
+	color:white;
+	font-family: 'Source Sans Pro';
+}
+.container{
+	width:1000px;
+	margin:0 auto;
+	display:inherit;
+	height:inherit;
+	justify-content: inherit;
+	align-items: inherit;
+	flex-wrap: inherit;
+}
