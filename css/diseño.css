@@ -72,18 +72,21 @@ h2{
 	margin-bottom:10px;
 }
 .project_details{
-	width: 500px;
+	width: 50%;
 }
 .project_description{
 	font-size:20px;
 }
 .project_imageContainer{
-	width: 500px;
+	width: 50%;
+}
+.project_image{
+	max-width:100%;
 }
 .project strong{
 	font-family:'Fjalla One'
 }
-.project_image{
+ .project_image{
 	border-radius: 10px;
 }
 .hero{
@@ -250,6 +253,7 @@ header a.link,li{
 }
 .container{
 	max-width:1000px;
+	flex:1;
 	margin:0 auto;
 	display:inherit;
 	height:inherit;
@@ -261,9 +265,59 @@ header a.link,li{
 /* desktop first que empiece desde el mq mas grande*/
 @media screen and (max-width:1024px){
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:767px){
+	.header{
+		display:block;
+		height:auto;
+	}
+	.header ul{
+		display:block;
+	}
+	.header ul li{
+		height:50px;
+	}
+	.header a{
+		justify-content:center;
+	}
+	.header .logo{
+		text-align: center;
+	}
+	.project{
+		display: block;
+	}
+	.project_imageContainer{
+		width:auto;
+		text-align: center;
+	}
+	.project_details{
+		width: auto;
+		font-size: 16px;
+	}
+	.project_title{
+		font-size: 1.5em;
+		margin-bottom: .3em;
+	}
+	.project_url{
+		font-size: 1em;
+	}
+	.project_date{
+		font-size: 1em;
+	}
+	.project_description{
+		font-size: 1em;
+	}
+	.project_university{
+		font-size: .9em;
+	}
+	.project_university, .project_date, .project_url{
+		margin:.4em 0;
+	}
 }
 @media screen and (max-width:480px){
+	.project_details{
+		width: auto;
+		font-size: 12px;
+	}
 }
 @media screen and (max-width:320px){
 }
