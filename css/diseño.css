@@ -198,8 +198,7 @@ header a.link,li{
 	align-items: center;
 	justify-content: space-between;
 }
-.social{
-}
+
 .social_link{
 	display:inline-block;
 	width:50px;
@@ -253,4 +252,17 @@ header a.link,li{
 	justify-content: inherit;
 	align-items: inherit;
 	flex-wrap: inherit;
+}
+
+/* desktop first que empiece desde el mq mas grande*/
+@media screen and (max-width:1024px){
+}
+@media screen and (max-width:768px){
+	body{
+		border: 10px solid green
+	}
+}
+@media screen and (max-width:480px){
+}
+@media screen and (max-width:320px){
 }
