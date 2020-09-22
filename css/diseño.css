@@ -18,6 +18,7 @@ footer ,footer div{
 	display:flex;
 	align-items:center;
 	justify-content: space-between;
+	flex-wrap:wrap;
 }
 footer img{
 	vertical-align:middle ;
@@ -60,6 +61,7 @@ h2{
 	display:flex;
 	align-items:center;
 	justify-content: space-between;
+	flex-wrap:wrap;
 }
 .project_university,.project_date,.project_url{
 	margin:10px 0;
@@ -91,6 +93,7 @@ h2{
 	display:flex;
 	align-items:center;
 	justify-content: space-between;
+	flex-wrap:wrap;
 }
 .hero-image{
 	object-fit:cover;
@@ -126,7 +129,7 @@ figure{
 	justify-content: space-between;
 	height:70px;
 	align-items:center;
-
+	flex-wrap: wrap;
 			}
 .header ul{
 	height: inherit;
@@ -197,6 +200,7 @@ header a.link,li{
 	display:flex;
 	align-items: center;
 	justify-content: space-between;
+	flex-wrap:wrap;
 }
 
 .social_link{
@@ -245,7 +249,7 @@ header a.link,li{
 	font-family: 'Source Sans Pro';
 }
 .container{
-	width:1000px;
+	max-width:1000px;
 	margin:0 auto;
 	display:inherit;
 	height:inherit;
@@ -258,9 +262,6 @@ header a.link,li{
 @media screen and (max-width:1024px){
 }
 @media screen and (max-width:768px){
-	body{
-		border: 10px solid green
-	}
 }
 @media screen and (max-width:480px){
 }
