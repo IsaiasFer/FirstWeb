@@ -338,13 +338,10 @@ header a.link,li{
 }
 
 /* desktop first que empiece desde el mq mas grande*/
-@media screen and (max-width:1024px){
+@media screen and (max-width:1023px){
 	.portfolio{
 		padding:0;
 	}
-
-}
-@media screen and (max-width:950px){
 	.hero{
 		height:auto;
 		position: relative;
@@ -365,9 +362,11 @@ header a.link,li{
 		width:100%;
 
 	}
-}
 
 @media screen and (max-width:767px){
+	h2{
+		margin: .5em 1em;
+	}
 	.burguer-button{
 		display:block;
 	}
@@ -456,7 +455,7 @@ header a.link,li{
 	}
 	.project_details{
 		width: auto;
-		font-size: 12px;
+		font-size: 14px;
 	}
 	.contact{
 		height:auto;
