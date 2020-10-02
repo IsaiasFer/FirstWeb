@@ -339,6 +339,9 @@ header a.link,li{
 
 /* desktop first que empiece desde el mq mas grande*/
 @media screen and (max-width:1024px){
+	.portfolio{
+		padding:0;
+	}
 
 }
 @media screen and (max-width:950px){
