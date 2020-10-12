@@ -2,7 +2,7 @@ html{
 	scroll-behavior: smooth;
 }
 body{
-	background:#1b2127;
+	background:#686d76;
 	font-family:'Source Sans Pro',sans-serif;
 	margin:0;
 }
@@ -51,8 +51,8 @@ h1,h2,h3,h4,h5,h6{
 	text-decoration:none;
 }
 footer ,footer div{ 
-	background: #1d252c;
-	color:white;
+	background: #373a40;
+	color:#eeeeee;
 	display:flex;
 	align-items:center;
 	justify-content: space-between;
@@ -62,21 +62,21 @@ footer img{
 	vertical-align:middle ;
 }
 .footer a{
-	color:white;
+	color:#eeeeee;
 }
 h1{
 	text-shadow: 1px 2px 2px #000;
-	color:white;
+	color:#eeeeee;
 	font-size: 40px;
 	line-height: 1.5;
 	letter-spacing: 1px;
 	margin:0;
 }
 h1 strong{
-	color:#91EB3F;
+	color:#19d3da;
 }
 h2{
-	color:#91EB3F;
+	color:#19d3da;
 	text-transform: uppercase;
 	font-family:'Source Sans Pro',sans-serif;
 	font-weight: bold;
@@ -91,12 +91,12 @@ h2{
 	border-color:red;
 	border-width:15px;
 	border-style:solid;*/
-	border:3px solid #8187A3;
+	border:3px solid #373a40;
 	border-radius:10px;
 	/*margin:10px;*/
 	margin-bottom: 15px;
 	padding:20px;
-	background: #789E55 ;
+	background: #eeeeee ;
 	display:flex;
 	align-items:center;
 	justify-content: space-between;
@@ -131,7 +131,7 @@ h2{
 .hero{
 	height: 290px;
 	background-position-x: right;
-	background-color: #1d252c;
+	background-color: #373a40;
 	display:flex;
 	align-items:center;
 	justify-content: space-between;
@@ -142,7 +142,7 @@ h2{
 	height:290px;
 }
 .portfolio{
-	background:#1b2127;
+	background:#686d76;
 	padding:20px;
 }
 .flexbox{
@@ -165,8 +165,8 @@ figure{
 	margin:0;
 }
 .header{
-	background:#1d252c;
-	color:white;
+	background:#373a40;
+	color:#eeeeee;
 	display:flex;
 	justify-content: space-between;
 	height:70px;
@@ -184,7 +184,7 @@ figure{
 	height: inherit;
 }
 header a.link,li{
-	color:white;
+	color:#eeeeee;
 	text-decoration:none;
 	height: inherit;
 	display:flex;
@@ -193,6 +193,7 @@ header a.link,li{
 	padding:0 10px
 }
 .event{
+	border-radius: 10px 10px 10px 10px;
 	margin:1%;
 	width:48%;	
 	background: #bbbfc2;
@@ -202,7 +203,9 @@ header a.link,li{
 	justify-content: space-between;
 	flex-wrap:wrap;
 }
-
+.event_imageContainer{
+	
+}
 .event img{
 	border-radius: 10px 10px 0px 0px;
 	width:100%;
@@ -212,7 +215,7 @@ header a.link,li{
 .event_detail{
 	margin:20px 40px;
 	margin-top: -50px;
-	background-color:white;
+	background-color:#eeeeee;
 	position: relative;
 	border-radius:10px;
 	padding: 10px;
@@ -223,9 +226,10 @@ header a.link,li{
 	text-align: left;
 }
 .event_url{
+	text-shadow:.5px .5px .5px rgba(0,0,0,.1);
 	text-decoration: none;
-	font-size :bold;
-	color:#0932E8;
+	font-weight:bold;
+	color:#19d3da;
 	border:2px solid;
 	padding:5px 20px;
 	border-radius: 10px;
@@ -234,8 +238,8 @@ header a.link,li{
 	margin-left:20px;
 }
 .contact{
-	background-color:#789E55;
-	color:white;
+	background-color:#686d76;
+	color:#eeeeee;
 	height:150px;
 	display:flex;
 	align-items: center;
@@ -274,7 +278,7 @@ header a.link,li{
 	background-position-x: 5px;
 }
 .form_email button{
-	color:white;
+	color:#eeeeee;
 	display: block;
 	border-style: solid;
 	background:transparent;
@@ -282,10 +286,11 @@ header a.link,li{
 	border-radius:5px;
 	width:100px;
 	margin-top:10px;
-	border-color:white;
+	border-color:#eeeeee;
+	
 }
 .form_email h3{
-	color:white;
+	color:#eeeeee;
 	font-family: 'Source Sans Pro';
 }
 .container{
@@ -328,12 +333,12 @@ header a.link,li{
 	width:40px;
 	height:40px;
 	border-radius: 50%;
-	background:rgba(29,37,44,.5);
+	background:rgba(55,58,64,.5);
 	position:fixed;
 	z-index:4;
 	left:7px;
 	top:7px;
-	color:white;
+	color:#eeeeee;
 }
 
 /* desktop first que empiece desde el mq mas grande*/
