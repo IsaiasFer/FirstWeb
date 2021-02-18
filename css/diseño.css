@@ -336,6 +336,12 @@ header a.link,li{
 	top:7px;
 	color:#eeeeee;
 }
+.contactLink{
+	text-decoration: none;
+	color:white;
+	font-family:inherit;
+	font-size: inherit;
+}
 
 /* desktop first que empiece desde el mq mas grande*/
 @media screen and (max-width:1023px){
