@@ -1,0 +1,24 @@
+{
+  "name": "isaiasfer.github.io",
+  "version": "1.0.0",
+  "description": "My first React App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsaiasFer/IsaiasFer.github.io.git"
+  },
+  "keywords": [
+    "react",
+    "javascript",
+    "portfolio"
+  ],
+  "author": "Isaias Fernandez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IsaiasFer/IsaiasFer.github.io/issues"
+  },
+  "homepage": "https://github.com/IsaiasFer/IsaiasFer.github.io#readme"
+}
