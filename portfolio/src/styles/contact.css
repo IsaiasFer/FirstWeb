@@ -1,0 +1,77 @@
+/* CONTACT-STYLES */
+.contact {
+	background-color: #686d76;
+	color: #eeeeee;
+	height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 1em;
+  }
+  .social_link {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 0px 10px;
+	background-size: 50px 50px;
+  }
+  .social_link.twitter {
+	background-image: url("../images/twitter.svg");
+  }
+  .social_link.facebook {
+	background-image: url("../images/facebook.svg");
+  }
+  .social_link.github {
+	background-image: url("../images/github.svg");
+  }
+  .social_link.instagram {
+	background-image: url("../images/instagram.svg");
+  }
+  .form_email input {
+	border-color: gray;
+	border-style: solid;
+	border-radius: 5px;
+	background-image: url("../images/envelope.svg");
+	background-size: 15px 15px;
+	padding: 10px 20px 10px 25px;
+	background-repeat: no-repeat;
+	background-position-y: center;
+	background-position-x: 5px;
+  }
+  .form_email button {
+	color: #eeeeee;
+	display: block;
+	border-style: solid;
+	background: transparent;
+	padding: 10px 0px;
+	border-radius: 5px;
+	width: 100px;
+	margin-top: 10px;
+	border-color: #eeeeee;
+  }
+  .form_email h3 {
+	color: #eeeeee;
+	font-family: "Source Sans Pro";
+  }
+  .contactLink{
+	text-decoration: none;
+    color: white;
+    font-family: inherit;
+    font-size: inherit;
+  }
+  @media screen and (max-width: 480px){
+	.contact {
+		height: auto;
+		padding: 1em 0;
+		text-align: center;
+		display: block;
+	  }
+      .form_email button {
+        margin: 1em auto 2em auto;
+      }
+      .form_email h3 {
+        margin-top: 0;
+      }
+  }
+/* END-CONTACT-STYLES */

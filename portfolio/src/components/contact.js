@@ -1,5 +1,7 @@
 import React from 'react';
 
+import '../styles/contact.css'
+
 class Contact extends React.Component{
     render(){
         return(
@@ -7,7 +9,7 @@ class Contact extends React.Component{
 				<form className="form_email" action="/suscripcion/">
 					<h3>¿Creamos Algo juntos?</h3>
 					<button>
-						<a className="contactLink" href="mailto:isafernande04@gmail.com?subject=Quiero%20Contactarme%20contigo%20%3A">Contactame! :)</a>
+						<a className='contactLink' href='mailto:isaiafer04@gmail.com'>Contactame :)</a>
 					</button>
 				</form>
 				<div className="social">

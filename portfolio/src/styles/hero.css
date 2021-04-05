@@ -1,0 +1,37 @@
+/* HERO-STYLES */
+.hero {
+  height: 290px;
+  background-position-x: right;
+  background-color: #373a40;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.hero-image {
+  object-fit: cover;
+  height: 290px;
+}
+@media screen and (max-width: 1023px) {
+  .hero {
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    padding: 2em;
+  }
+  .hero-image {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .hero {
+    padding: 2em 1em;
+  }
+}
+/* END-HERO-STYLES */

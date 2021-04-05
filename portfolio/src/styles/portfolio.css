@@ -1,0 +1,98 @@
+/* PORTFOLIO-STYLES */
+.portfolio {
+    background: #686d76;
+    padding: 20px;
+  }
+  .project {
+    /*border-right: 10px solid green;
+        border-top: 10px solid red;
+        border-left: 10px solid blue;
+        border-bottom: 10px solid pink;
+        border-color:red;
+        border-width:15px;
+        border-style:solid;*/
+    border: 3px solid #373a40;
+    border-radius: 10px;
+    /*margin:10px;*/
+    margin-bottom: 15px;
+    padding: 20px;
+    background: #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .project_university,
+  .project_date,
+  .project_url {
+    margin: 10px 0;
+  }
+  .project_title {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .project_details {
+    width: 50%;
+  }
+  .project_description {
+    font-size: 20px;
+  }
+  .project_imageContainer {
+    width: 50%;
+  }
+  .project_image {
+    max-width: 100%;
+  }
+  .project strong {
+    font-family: "Fjalla One";
+  }
+  .project_image {
+    border-radius: 10px;
+  }
+  @media screen and (max-width: 1023px) {
+    .portfolio {
+      padding: 0;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .project {
+      display: block;
+    }
+    .project_imageContainer {
+      width: auto;
+      text-align: center;
+    }
+    .project_details {
+      width: auto;
+      font-size: 16px;
+    }
+    .project_title {
+      font-size: 1.5em;
+      margin-bottom: 0.3em;
+    }
+    .project_url {
+      font-size: 1em;
+    }
+    .project_date {
+      font-size: 1em;
+    }
+    .project_description {
+      font-size: 1em;
+    }
+    .project_university {
+      font-size: 0.9em;
+    }
+    .project_university,
+    .project_date,
+    .project_url {
+      margin: 0.4em 0;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .project_details {
+      width: auto;
+      font-size: 14px;
+    }
+  }
+  /* END-PORTFOLIO-STYLES */

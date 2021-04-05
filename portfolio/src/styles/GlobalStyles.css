@@ -1,0 +1,75 @@
+/* GLOBAL-STYLES */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: #686d76;
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fjalla One", sans-serif;
+  color: black;
+}
+.container {
+  max-width: 1000px;
+  flex: 1;
+  margin: 0 auto;
+  display: inherit;
+  height: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  flex-wrap: inherit;
+}
+h1 {
+  text-shadow: 1px 2px 2px #000;
+  color: #eeeeee;
+  font-size: 40px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  margin: 0;
+}
+h1 strong {
+  color: #19d3da;
+}
+h2 {
+  color: #19d3da;
+  text-transform: uppercase;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+figure {
+  margin: 0;
+}
+/* END-GLOBAL-STYLES */
+/* desktop first que empiece desde el mq mas grande*/
+@media screen and (max-width: 1023px) {
+  h1 {
+    font-size: 2em;
+    z-index: 2;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h2 {
+    margin: 0.5em 1em;
+  }
+}
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 1.2em;
+  }
+}

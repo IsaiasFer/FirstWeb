@@ -1,0 +1,32 @@
+/* FOOTER-STYLES */
+footer,
+footer div {
+  background: #373a40;
+  color: #eeeeee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer img {
+  vertical-align: middle;
+}
+.footer a {
+  color: #eeeeee;
+}
+@media screen and (max-width: 767px){
+	footer,
+  footer div {
+    padding: 0 1em;
+  }
+}
+@media screen and (max-width: 480px){
+	.footer,
+	footer div {
+	  display: block;
+	  text-align: center;
+	  border: 1px solid transparent;
+	}
+}
+
+/* END-FOOTER-STYLES */
