@@ -9,6 +9,23 @@ import Footer from "../components/footer";
 import BurguerIcon from "../components/burguerIcon";
 
 class HomePage extends React.Component {
+  state = {
+    form: {
+      firstName: "Isaias",
+      lastName: "Fernandez",
+      email: "",
+      jobTitle: "joven",
+      twitter: "",
+    },
+  };
+  handleChange = (e) => {
+    this.setState({
+      form: {
+        ...this.state.form,
+        [e.target.name]: e.target.value,
+      },
+    });
+  };
   render() {
     return (
       <div>
@@ -20,14 +37,14 @@ class HomePage extends React.Component {
         </header>
         <section className="hero">
           <Hero
-            firstName="Isaias"
-            lastName="Fernandez"
-            gender="joven"
+            firstName={this.state.form.firstName}
+            lastName={this.state.form.lastName}
+            gender={this.state.form.jobTitle}
             inspiration="Software"
             avatarUrl="https://i.imgur.com/fuzMYwx.jpg"
           />
         </section>
-        <section className="portfolio">
+        <section id="Portafolio" className="portfolio">
           <div className="container">
             <h2>Portafolio (Proyectos destacados)</h2>
             <Article1
@@ -62,7 +79,7 @@ class HomePage extends React.Component {
         <div className="container">
           <h2 className="event-list-title">Mas sobre mi experiencia</h2>
         </div>
-        <section className="event-list">
+        <section id="Experiencia" className="event-list">
           <div className="container">
             <Exp
               Title="IITA Robotica"
@@ -90,14 +107,14 @@ class HomePage extends React.Component {
               Title="Tercer puesto maraton de 4Km"
               ImageUrl="https://i.imgur.com/xKeybmM.jpg"
               ImageAlt=""
-              Description='Tercer puesto a nivel global y 1er puesto a nivel institucional en 4 Kilometros, en el marco de la carrera comunitaia de Salta edicion 2019, organizada por el hopital San Bernardo y que congregó a mas de 650 amantes del deporte!'
+              Description="Tercer puesto a nivel global y 1er puesto a nivel institucional en 4 Kilometros, en el marco de la carrera comunitaia de Salta edicion 2019, organizada por el hopital San Bernardo y que congregó a mas de 650 amantes del deporte!"
               Link="http://www.salta.gov.ar/prensa/noticias/la-tercera-edicion-de-la-carrera-comunitaria-convoco-a-650-corredores/65899"
               Alt="Maraton 2019"
             />
           </div>
         </section>
-        <section className="contact">
-          <Contact />
+        <section id="WeWork" className="contact">
+          <Contact onChange={this.handleChange} formValues={this.state.form} />
         </section>
         <footer className="footer">
           <Footer />

@@ -8,6 +8,7 @@ class Exp extends React.Component {
       <article className="event">
         <figure className="event_imageContainer">
           <img
+            loading="lazy"
             className="event_image"
             src={this.props.ImageUrl}
             alt={this.props.ImageAlt}
@@ -17,7 +18,12 @@ class Exp extends React.Component {
         <div className="event_detail">
           <h3 className="event_title">{this.props.Title}</h3>
           <p className="event_description">{this.props.Description}</p>
-          <a className="event_url" href={this.props.Link} target="_blank">
+          <a
+            className="event_url"
+            href={this.props.Link}
+            target="_blank"
+            rel="noreferrer"
+          >
             {this.props.Alt}
           </a>
         </div>

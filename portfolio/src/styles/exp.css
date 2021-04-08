@@ -3,7 +3,7 @@
   border-radius: 10px 10px 10px 10px;
   margin: 1%;
   width: 48%;
-  background: #bbbfc2;
+  background: #58391c;
 }
 .event-list {
   display: flex;
@@ -33,7 +33,7 @@
   text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.1);
   text-decoration: none;
   font-weight: bold;
-  color: #19d3da;
+  color: #f88f01;
   border: 2px solid;
   padding: 5px 20px;
   border-radius: 10px;

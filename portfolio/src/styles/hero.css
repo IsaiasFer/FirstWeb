@@ -2,7 +2,7 @@
 .hero {
   height: 290px;
   background-position-x: right;
-  background-color: #373a40;
+  background-color: #58391c;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -12,12 +12,18 @@
   object-fit: cover;
   height: 290px;
 }
+.hero .container h1{
+  max-width: 50%;
+}
 @media screen and (max-width: 1023px) {
   .hero {
     height: auto;
     position: relative;
     overflow: hidden;
     padding: 2em;
+  }
+  .hero .container{
+    justify-content: flex-end;
   }
   .hero-image {
     position: absolute;

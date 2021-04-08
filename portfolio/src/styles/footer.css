@@ -1,8 +1,8 @@
 /* FOOTER-STYLES */
 footer,
 footer div {
-  background: #373a40;
   color: #eeeeee;
+  background: #58391c;
   display: flex;
   align-items: center;
   justify-content: space-between;

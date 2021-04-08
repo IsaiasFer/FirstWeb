@@ -38,7 +38,7 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: rgba(55, 58, 64, 0.5);
+    background: rgb(88 57 28 / 0.5);
     position: fixed;
     z-index: 4;
     left: 7px;

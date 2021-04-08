@@ -3,7 +3,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background: #686d76;
+  background: #6a492b;
   font-family: "Source Sans Pro", sans-serif;
   margin: 0;
 }
@@ -35,10 +35,10 @@ h1 {
   margin: 0;
 }
 h1 strong {
-  color: #19d3da;
+  color: #f88f01;
 }
 h2 {
-  color: #19d3da;
+  color: #f88f01;
   text-transform: uppercase;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: bold;

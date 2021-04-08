@@ -1,64 +1,67 @@
 /* CONTACT-STYLES */
 .contact {
-	background-color: #686d76;
+	background-color: #e27802;
 	color: #eeeeee;
-	height: 150px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	flex-wrap: wrap;
 	padding: 1em;
   }
-  .social_link {
+  .social_link img{
 	display: inline-block;
 	width: 50px;
 	height: 50px;
 	margin: 0px 10px;
 	background-size: 50px 50px;
   }
-  .social_link.twitter {
-	background-image: url("../images/twitter.svg");
+  .form_email{
+	  width: 35%;
   }
-  .social_link.facebook {
-	background-image: url("../images/facebook.svg");
-  }
-  .social_link.github {
-	background-image: url("../images/github.svg");
-  }
-  .social_link.instagram {
-	background-image: url("../images/instagram.svg");
+  .form_email .label-input div{
+	  display:flex;
+	  justify-content: space-between;
+	  align-items: center;
+	  margin: 1%;
   }
   .form_email input {
+	background-image: url(https://static8.depositphotos.com/1019436/1032/i/950/depositphotos_10320810-stock-photo-old-paper-texture.jpg);
 	border-color: gray;
 	border-style: solid;
 	border-radius: 5px;
-	background-image: url("../images/envelope.svg");
+	padding: 10px 20px 10px 10px;
+	/* background-image: url("../images/envelope.svg");
 	background-size: 15px 15px;
-	padding: 10px 20px 10px 25px;
 	background-repeat: no-repeat;
 	background-position-y: center;
-	background-position-x: 5px;
+	background-position-x: 5px; */
+	font-family: "Libre Baskerville", serif;
+	border:none;
   }
   .form_email button {
 	color: #eeeeee;
 	display: block;
 	border-style: solid;
-	background: transparent;
+	background: #58391c;
 	padding: 10px 0px;
 	border-radius: 5px;
 	width: 100px;
 	margin-top: 10px;
 	border-color: #eeeeee;
+	cursor: pointer;
   }
-  .form_email h3 {
+  .form_email label {
 	color: #eeeeee;
-	font-family: "Source Sans Pro";
+	font-family: "Libre Baskerville", serif;
   }
   .contactLink{
 	text-decoration: none;
     color: white;
     font-family: inherit;
     font-size: inherit;
+  }
+  .social a{
+	  text-decoration: none;
   }
   @media screen and (max-width: 480px){
 	.contact {
@@ -70,8 +73,17 @@
       .form_email button {
         margin: 1em auto 2em auto;
       }
-      .form_email h3 {
+      .form_email label {
         margin-top: 0;
       }
+  }
+  @media screen and (max-width: 480px){
+	  .contact .container{
+		  display:flex;
+		  justify-content: center;
+	  }
+	.form_email{
+		width: 80%;
+	}
   }
 /* END-CONTACT-STYLES */

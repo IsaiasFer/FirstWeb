@@ -18,11 +18,12 @@ class Article1 extends React.Component {
             </p>
             <p className="project_url">
               <small>
-                <strong>Puedes ver mas en</strong>
+                <strong>Puedes ver mas en </strong>
+                </small>
                 <a href={this.props.ProjectUrl}>
                   Esta nota
                 </a>
-              </small>
+              
             </p>
             <p className="project_description">
               {this.props.Description}
@@ -31,6 +32,7 @@ class Article1 extends React.Component {
           <figure className="project_imageContainer">
             <img
               className="project_image"
+              loading='lazy'
               src={this.props.ProjectImageUrl}
               alt={this.props.ProjectImageAlt}
             ></img>

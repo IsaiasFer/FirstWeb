@@ -1,0 +1,156 @@
+/* *{
+    border: 1px solid red;
+} */
+body {
+  background: url(https://th.bing.com/th/id/OIP.Uph5jrDmiO7Z5PuGM1WOKgHaHa?pid=ImgDet&rs=1);
+}
+/* .madera{
+    background: url(https://th.bing.com/th/id/OIP.Uph5jrDmiO7Z5PuGM1WOKgHaHa?pid=ImgDet&rs=1);
+} */
+.BadgeContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 600px;
+}
+.Badge {
+  position: relative;
+  width: 35%;
+  font-family: "Cormorant Garamond", serif;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background: url("https://th.bing.com/th/id/Ra09541057e1ea067516bda1c6e53b728?rik=1rtPmQQe5Uk2DA&riu=http%3a%2f%2f3.bp.blogspot.com%2f-yCda5XR3M7Q%2fU4EpoSO4xyI%2fAAAAAAAAP6A%2f-EkuwhjVxYM%2fs1600%2ftextura-papel-antiguo-escrito-carta-vintage.jpg&ehk=%2bejbrhoAMvEJE4CWj2tfY2aqmHWnBL%2fdR4HUslSstj4%3d&risl=&pid=ImgRaw");
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  text-align: center;
+  margin-right: 10%;
+}
+.BadgeContent {
+  display: flex;
+  flex-direction: column;
+}
+.BadgeTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  font-size: 1.2em;
+  font-weight: 400;
+  padding-top: 10%;
+}
+.BadgeTitle h1,
+.BadgeTitle h3,
+.BadgeTitle h6 {
+  text-align: center;
+  font-family: "Rye", cursive;
+  margin: 0;
+  color: black;
+}
+.BadgeTitle h1 {
+  letter-spacing: 0.25em;
+  font-family: "Libre Baskerville", serif;
+  font-size: 3em;
+  text-shadow: none;
+}
+.BadgeTitle h3 {
+  margin-top: -5%;
+  margin-bottom: 5%;
+  letter-spacing: 0.4em;
+}
+.Reward {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  letter-spacing: 0.4em;
+  margin: 1% 0;
+  font-size: 1.3em;
+  color: black;
+  text-shadow: none;
+}
+.card-image_container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("https://th.bing.com/th/id/Ra09541057e1ea067516bda1c6e53b728?rik=1rtPmQQe5Uk2DA&riu=http%3a%2f%2f3.bp.blogspot.com%2f-yCda5XR3M7Q%2fU4EpoSO4xyI%2fAAAAAAAAP6A%2f-EkuwhjVxYM%2fs1600%2ftextura-papel-antiguo-escrito-carta-vintage.jpg&ehk=%2bejbrhoAMvEJE4CWj2tfY2aqmHWnBL%2fdR4HUslSstj4%3d&risl=&pid=ImgRaw");
+}
+.info {
+  color: black;
+}
+.Name {
+  text-align: center;
+  font-size: 1.9em;
+  letter-spacing: 0.1em;
+  font-family: "Rye", cursive;
+  padding: 0 5%;
+}
+.card-image {
+  height: 100%;
+  width: 100%;
+  filter: sepia(0.5);
+  opacity: 0.7;
+}
+.papelViejo {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+.card-section1 {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 1024px) {
+  .Badge {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .Reward {
+    z-index: unset;
+  }
+  .BadgeContainer {
+    flex-direction: column;
+    height: unset;
+    justify-content: center;
+      height: 800px;
+  }
+  .Badge {
+    margin: 0;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .form_email input {
+    width: 50%;
+  }
+  .BadgeTitle h1 {
+    font-size: 2.4em;
+  }
+  .BadgeTitle h3,
+  .Reward {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 375px) {
+  .BadgeTitle h1 {
+    font-size: 2em;
+  }
+  .BadgeTitle h3,
+  .Reward {
+    font-size: 0.7em;
+  }
+  .BadgeContainer{
+    height: 740px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .BadgeContainer{
+    height: 700px;
+  }
+}

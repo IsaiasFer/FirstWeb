@@ -7,7 +7,7 @@ class Footer extends React.Component{
         return(<div className="container">
         <div>
             <p>
-                Designed with ❤ by <a href="https://www.facebook.com/isaias.acevedo.14">IsaElPapu</a>
+                Designed with ❤ by <a href="https://www.twitter.com/isaiasfer4">Isaias Fernandez</a>
             </p>
         </div>
     </div>
