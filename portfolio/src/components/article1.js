@@ -1,7 +1,5 @@
 import React from "react";
 
-import '../styles/portfolio.css'
-
 class Article1 extends React.Component {
   render() {
     return (

@@ -3,18 +3,9 @@ import React from "react";
 /* import '../styles/BadgeForm.css' */
 
 class BadgeForm extends React.Component {
-
-  handleClick = (e) => {
-    console.log("Button was clicked");
-  };
-  handleSubmit = (e) => {
-    e.preventDefault();
-    console.log("Form was submitted");
-  console.log(this.props.formValues)
-  };
   render() {
     return (
-      <form onSubmit={this.handleSubmit} className="form_email">
+      <form onSubmit={this.props.onSubmit} className="form_email">
         <h3>BUSCADO</h3>
         <div className="label-input">
           <div className="form-group">
@@ -36,21 +27,12 @@ class BadgeForm extends React.Component {
             />
           </div>
           <div className="form-group">
-            <label>Apodo</label>
+            <label>Surname</label>
             <input
               onChange={this.props.onChange}
               type="text"
               name="apodo"
               value={this.props.formValues.apodo}
-            />
-          </div>
-          <div className="form-group">
-            <label>image URL</label>
-            <input
-              onChange={this.props.onChange}
-              type="text"
-              name="image"
-              value={this.props.formValues.image}
             />
           </div>
           <div className="form-group">
@@ -62,17 +44,18 @@ class BadgeForm extends React.Component {
               value={this.props.formValues.city}
             />
           </div>
-          {/* <div className="form-group">
-            <label>Twitter</label>
+          <div className="form-group">
+            <label>Email</label>
             <input
               onChange={this.props.onChange}
-              type="text"
-              name="twitter"
-              value={this.props.formValues.twitter}
+              type="email"
+              name="email"
+              value={this.props.formValues.email}
             />
-          </div> */}
+          </div>
         </div>
-        {/* <button onClick={this.handleClick}>Guardar</button> */}
+        <button>Guardar</button>
+        {this.props.error && <p className='errorMessage'>{this.props.error.message}</p>}
       </form>
     );
   }

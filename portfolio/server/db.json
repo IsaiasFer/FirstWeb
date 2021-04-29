@@ -1,0 +1,20 @@
+{
+  "badges": [
+    {
+      "firstName": "Isaias",
+      "lastName": "Fernandez",
+      "city": "Vaqueros",
+      "apodo": "El papu",
+      "email": "isafernande04@gmail.com",
+      "id": 1
+    },
+    {
+      "firstName": "Mauricio",
+      "lastName": "Macri",
+      "city": "Los Andes",
+      "apodo": "djsla",
+      "email": "elefante@gmail.com",
+      "id": 2
+    }
+  ]
+}

@@ -63,6 +63,10 @@
   .social a{
 	  text-decoration: none;
   }
+  .errorMessage{
+	  color: white;
+	  font-weight: 500;
+  }
   @media screen and (max-width: 480px){
 	.contact {
 		height: auto;
