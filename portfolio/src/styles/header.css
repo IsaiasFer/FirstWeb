@@ -1,6 +1,6 @@
 /* HEADER-STYLES */
 .header {
-  background: #58391c;
+  background: black/* #58391c */;
   color: #eeeeee;
   display: flex;
   justify-content: space-between;
@@ -14,6 +14,10 @@
 }
 .menu {
   height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 .header ul {
   height: inherit;

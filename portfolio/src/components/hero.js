@@ -7,25 +7,23 @@ class Hero extends React.Component {
     return (
       <section className="hero">
         <div className="container">
-          <h1>
-            Hola! Soy{" "}
-            <strong>
-              {this.props.firstName} {this.props.lastName},
-            </strong>
-            <br />
-            un {this.props.gender} apasionado
-            <br />
-            por el <strong>{this.props.inspiration}</strong> :)
-          </h1>
-          <figure>
-            <img
-              className="hero-image"
-              src={this.props.avatarUrl}
-              width="500"
-              height="290"
-              alt="imagen principal del sitio"
-            />
-          </figure>
+          <div className="whoAreIsaias">
+            <figure className="hero-imageContainer">
+              <img
+                className="hero-image"
+                src={this.props.avatarUrl}
+                alt="imagen principal del sitio"
+              />
+            </figure>
+            <div className="isaiasInfo">
+              <h1>Isaias Fernandez</h1>
+              <h3>
+                <div className="cargo">Desarrollador Frontend</div>
+                <br />
+                Co-founder en <div className="fafe">FAFE</div>
+              </h3>
+            </div>
+          </div>
         </div>
       </section>
     );

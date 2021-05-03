@@ -2,18 +2,54 @@
 .hero {
   height: 290px;
   background-position-x: right;
-  background-color: #58391c;
+  background-color: black /* #58391c */;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
 }
+.hero-imageContainer {
+  width: calc(3.5em + 10px);
+  height: calc(3.5em + 10px);
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
 .hero-image {
   object-fit: cover;
-  height: 290px;
+  border-radius: 50%;
+  width: 3.5em;
+  height: 3.5em;
 }
-.hero .container h1{
-  max-width: 50%;
+.whoAreIsaias {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  font-size: 60px;
+  width: 100%;
+}
+.isaiasInfo{
+  margin-left: 0.5em;
+}
+.isaiasInfo h3 {
+  color: white;
+  font-size: 0.65em;
+  margin:0;
+}
+.fafe{
+  display: inline;
+  color:rgb(180, 190, 44);
+  margin:0
+}
+.cargo{
+  display: inline;
+  color:#f88f01;
+  margin:0
+}
+.whoAreIsaias h1 {
+  font-size: 1.5em;
 }
 @media screen and (max-width: 1023px) {
   .hero {
@@ -22,7 +58,7 @@
     overflow: hidden;
     padding: 2em;
   }
-  .hero .container{
+  .hero .container {
     justify-content: flex-end;
   }
   .hero-image {

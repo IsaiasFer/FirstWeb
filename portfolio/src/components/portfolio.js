@@ -9,7 +9,7 @@ class Portfolio extends React.Component {
     return (
       <section id="Portafolio" className="portfolio">
         <div className="container">
-          <h2>Portafolio (Proyectos destacados)</h2>
+          <h2>❑Proyectos destacados</h2>
           <Article1
             Title="Fisica al alcance de todos"
             ProjectUbication="Universidad Nacional de Salta, Edición 2019"

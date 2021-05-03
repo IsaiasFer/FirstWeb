@@ -37,6 +37,14 @@ class Experencia extends React.Component {
             Link="http://www.salta.gov.ar/prensa/noticias/la-tercera-edicion-de-la-carrera-comunitaria-convoco-a-650-corredores/65899"
             Alt="Maraton 2019"
           />
+          <Exp
+            Title="Estudios en Platzi"
+            ImageUrl="https://tentulogo.com/wp-content/uploads/2019/12/platzy-logo.jpg"
+            ImageAlt=""
+            Description="Tercer puesto a nivel global y 1er puesto a nivel institucional en 4 Kilometros, en el marco de la carrera comunitaia de Salta edicion 2019, organizada por el hopital San Bernardo y que congregó a mas de 650 amantes del deporte!"
+            Link="http://www.salta.gov.ar/prensa/noticias/la-tercera-edicion-de-la-carrera-comunitaria-convoco-a-650-corredores/65899"
+            Alt="Platzi"
+          />
         </div>
       </section>
     );

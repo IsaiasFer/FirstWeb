@@ -5,7 +5,7 @@ class Article1 extends React.Component {
     return (
         <article className="project">
           <div className="project_details">
-            <h3 className="project_title">{this.props.Title}</h3>
+            <h3 className="project_title">➪{this.props.Title}</h3>
             <h6 className="project_university">
               {this.props.ProjectUbication}
             </h6>

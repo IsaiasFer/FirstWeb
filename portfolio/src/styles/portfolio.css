@@ -15,21 +15,25 @@
     /*margin:10px;*/
     margin-bottom: 15px;
     padding: 20px;
-    background: #e27802;
+    /* background: #0a0b0c; */
+    background: transparent;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    color:white
   }
   .project_university,
   .project_date,
   .project_url {
     margin: 10px 0;
+    color:white
   }
   .project_url a{
     color:#58391c;
   }
   .project_title {
+    color:#f88f01;
     font-size: 30px;
     margin-top: 0;
     margin-bottom: 10px;
@@ -39,15 +43,13 @@
   }
   .project_description {
     font-size: 20px;
+    margin-right: 15px;
   }
   .project_imageContainer {
     width: 50%;
   }
   .project_image {
     max-width: 100%;
-  }
-  .project strong {
-    font-family: "Fjalla One";
   }
   .project_image {
     border-radius: 10px;
